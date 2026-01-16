@@ -1,0 +1,72 @@
+# =========================
+# macOS
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Build artifacts
+# =========================
+*.o
+*.d
+*.elf
+*.map
+*.hex
+*.bin
+*.lst
+
+/build/
+/Build/
+/Debug/
+/Release/
+
+# =========================
+# IDE / Editor files
+# =========================
+
+# VS Code
+.vscode/
+
+# Eclipse / STM32CubeIDE / CCS
+.metadata/
+.settings/
+*.launch
+*.project
+*.cproject
+
+# Keil
+*.uvprojx
+*.uvoptx
+
+# IAR
+*.eww
+*.ewp
+*.ewd
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# =========================
+# Temporary / backup files
+# =========================
+*~
+*.swp
+*.tmp
+*.bak
+
+# =========================
+# Python (if used for tools/tests)
+# =========================
+__pycache__/
+*.pyc
+
+# =========================
+# Logs
+# =========================
+*.log
